@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+<style>
+::-webkit-scrollbar {display: none;}
+@keyframes slideInLeft{
+0%{transform: translate(-25%,0);opacity: 0}	
+100%{transform: translate(0,0);opacity: 1}	
+}
+.body{
+	border: 1px solid rgba(0,0,0,0.2);
+    margin: auto;
+    width: 610px;
+    overflow: hidden;
+    border-radius: 10px
+}
+.finch{
+	padding: 20px;
+	background: #f5f5f5;
+    width: 550px;
+    margin: auto;
+    font-family: 'Mulish';
+    color: #36353D;
+    font-size: 14px;
+    border-right: 20px solid #bbb
+    display:flex
+}
+.title{
+	text-align: center;
+	font-size: 30px;
+    color: #fff;
+    background: #36353d;
+    font-weight: bold;
+	text-decoration: underline solid #76A7AA;
+	text-decoration-thickness: 5px;
+    width: 570px;
+    margin: auto;
+    font-family: 'georgia';
+	padding: 20px;
+  
+    font-style: italic
+}
+h2{
+	margin:0px 0px 5px 0px;
+    padding-bottom: 5px;
+	text-decoration: underline solid #bbb;
+	text-decoration-thickness: 5px;
+    color: #76A7AA;
+    font-style: italic;
+    font-family: 'georgia'
+}
+
+.tablinks{
+	background: #bbb;
+    color: #fff;
+    padding: 20px;
+    transition: all 1s;
+    border:none;
+    font-style: italic;
+    font-family: 'georgia';
+    font-size: 16.5px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.tablinks:hover, .active{
+	background: #76A7AA;
+}
+.tabcontent{
+	animation: slideInLeft;
+	animation-duration: 0.7s;
+	animation-fill-mode: both;
+    text-align: justify;
+    overflow: auto;
+    height: 400px;
+}
+.credits{
+	border-top: 5px solid #bbb;
+    width: 610px;
+    font-family:'Mulish';
+    font-size: 16px;
+    padding: 10px 0px;
+    text-align: center;
+    background: #76A7AA;
+    color: #cdcdcd;
+}
+b, i, fieldset{
+	color: #76A7AA
+}
+.stats{
+	background:#76A7AA;
+	text-transform:uppercase;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    font-family: 'Mulish'
+}
+h3{
+	margin:0px;
+    text-transform: uppercase;
+    color: #36353d
+}
+</style>
+<div class="body">
+<div class="title">the london blitz- canada's role memory box</div>
+<div class="picture"></div>
+<div style="display: flex;align-items: center; justify-content: center;width: 610px; background: #bbb; margin: auto; border-top: 3px solid #fff; border-bottom: 3px solid #fff">
+<button class="tablinks" onclick="openCity(event, '1')" id="defaultOpen">one</button>
+<button class="tablinks" onclick="openCity(event, '2')">two</button>
+<button class="tablinks" onclick="openCity(event, '3')">three</button>
+<button class="tablinks" onclick="openCity(event, '4')">four</button>
+<button class="tablinks" onclick="openCity(event, '5')">five</button>
+<button class="tablinks" onclick="openCity(event, '6')">six</button>
+<button class="tablinks" onclick="openCity(event, '7')">sources</button>
+</div>
+<div class="finch">
+<div class="tabcontent" id="1">
+<h2>ss city of benares</h2>
+<img src="https://www.iwm.org.uk/sites/default/files/styles/promo_desktop_1x/public/2018-06/1_246.jpg?itok=8uSsBGnq" style="width: 200px; object-fit: cover; float: right;margin-left: 10px">
+this photo is of a letter sent to the parents of beryl myatt, a child from london who was on the <i>ss city of benares</i> when it was torpedoed. <p> beryl was one of many children who was evacuated to canada to avoid the bombings in london during the blitz. she was intended to live with her aunt and uncle, and a letter was even sent by them to their daughter with 'tons of love and heaps of kisses' two days after the ship had sunk, prior to them receiving the news of her death. <p> the <i>city of benares</i> was torpedoed on september 17, 1940. a distress call was sent before the ship sunk, and 24 hours later, a rescue boat picked up 105 survivors. of the 90 children on the ship that day, 77 died, including beryl. the sinking of the city of benares prompted the cancellation of all further evacuations from london to outside countries, as the public opinion changed to reflect that the risk of exposing children to further u-boat attacks was not worth it. <p>
+the event had major historical significance, and shows that despite our best efforts as a country and working with others, we are unable to really stop the true suffering created by war. while canada had a major influence on london during the blitz and greatly aided the children who were able to evacuate, we could not help beyond what help the people were willing to receive, and when the evacuation process was stopped, we were unable to do anything to change it or further remove children from danger, despite how much we may have wanted to. it also demonstrates the impact of war on the people who were not necessarily wounded or killed, such as beryl's parents. <p>
+
+a collection of more items/images related to beryl's evacuation and death can be found <a href="https://www.iwm.org.uk/collections/item/object/1030005975">here</a>.
+
+</div>
+
+<div class="tabcontent" id="2">
+<h2>carrying the tools to britain</h2>
+<img src="https://i.imgur.com/mhPq4V6.jpg" style="height: 200px; width: 200px; object-fit: cover; float: right; margin-left: 10px;">
+<i>carrying the tools to britain</i> was a board game created by cbc to "enable listeners of all ages to better visualize the mobilization of this country's vast resources in the gigantic war effort in which we are now engaged." <p> 
+joan bunce, one of many children who was evacuated to canada during the blitz, speaks fondly of the game. joan was a part of the last evacuee group to leave england. she communicated with her parents through letters  and she lived in canada for five years before her parents also came to canada. foster parents went to great lengths to keep memories of home alive in the children they fostered. she says that when she played the game she felt a sense of contributing to the war effort and that she might have been helping to bring her and her parents back together. <p>
+the game may have been used as a form of propaganda, as well as an educational tool to teach children and help families better understand the movement of resources throughout the war.<p>
+the game demonstrates the influence of war on children throughout it, even those in canada where fighting was not occurring. it, when connected to joan's story, demonstrates the significant influence being separated from their families had on children. it also shows the importance of canada's role in providing resources to those fighting overseas- if we had not played an important role, it likely would not have been such a hot topic for education and understanding. and as the board game was created by cbc, it also connects to the importance of radio throughout the war- bbc and cbc collaborated to broadcast messages from back home to evacuees in canada. <p>
+
+read joan's experiences <a href="https://www.readersdigest.ca/travel/canada/london-blitz-evacuation/">here</a>.
+
+</div>
+
+<div class="tabcontent" id="3">
+<h2>dr r.c. wallace broadcast</h2>
+<img src="https://www.nationalarchives.gov.uk/wp-content/uploads/2014/03/do-131-45-s2.jpg" style="height: 200px;width:350px; float:right; object-fit: cover; border: 3px solid #fff; margin-left:10px">
+this image is a segment of a radio transcript of a broadcast given by dr r.c. wallace.  <p>
+the transcript reads: <i>"before the government supported plan was put into operation, children were being received in canada under purely private auspices. parents overseas sent them to their relatives or friends here. university families received children from university families in great britain. so too, the medical fraternity, the engineers, the rotarians, and other fraternaties stretched the hand of friendship across the sea. the fortitude and confidence of the people of britain during these weeks of constant peril will live in history. the children who are with us are the sons and daughters of the men and women who are showing a spirit which fills our hearts with pride and gratitude. what we can do for these young people is small indeed when weighed against what their parents are doing for us. that service canada is doing with a full heart."</i><p>
+
+this broadcast is yet another representation of the importance of radio to canada during the war, especially during a time when many were disconnected from their loved ones who were overseas fighting (or again for children who had been evacuated). it also displays the difference between the first world war and now- canada is not having evacuated children shoved off on them, 
+
+
+
+</div>
+
+<div class="tabcontent" id="1">
+<h2>yes i am finch</h2>
+<img src="https://64.media.tumblr.com/c2d4d2dc606344639dbe47f0d2388893/e894b136094da61d-84/s400x600/0ba4bc9b086624a10f98e3fc0a7382dac42fc4c0.gifv" style="height: 200px; width: 200px; object-fit: cover; float: right; margin-left: 10px; border: 3px solid #fff">
+uhh something about me is that i constantly play video games, so there's that, i'm an epic gamer fucking hardcore scrub xd get shit on dude and uhhhh i code but i'm pretty sure you fucking know that if you don't i don't know how you got this far
+
+<p>Ea ferri justo libris usu. Appareat philosophia qui ex, id nibh eripuit scriptorem pro. Partem omittantur dissentiet ut vis, at facete ponderum his, an fugit ullum solet sea. Ex pro numquam intellegat, modo adipisci vulputate eum cu. Natum aliquip appetere usu at, in quo nobis numquam dissentiunt, duo zril commodo pertinax ad. Nec cu regione antiopam consetetur, congue corrumpit tincidunt ius et. Ne quod dissentias mei, in qui graeco graecis.
+
+</div>
+
+<div class="tabcontent" id="5">
+<h2>george parr's placement</h2>
+<img src="https://www.nationalarchives.gov.uk/wp-content/uploads/2014/03/do-131-47-s4.jpg" style="height: 200px; width: 200px; object-fit: cover; float: right; margin-left: 10px; border: 3px solid #fff"> 
+the image in question is 
+
+This was not a migration whereby Britain asserted its imperial standing and
+passed unwanted children onto Canada. Rather Canada imposed a special “War Guest”
+identity onto evacuees. This status in turn shaped evacuees’ experiences within both the
+public and private spaces. Although separated from family, they gained a cultural
+education through exposure to Canadian physical, social, and cultural landscapes. Their
+time spent in Canada became a fundamental part of their childhood, leading some to
+struggle to reintegrate into British life. Ultimately, Canadian evacuation differed
+drastically in organisation and facilitation from domestic evacuation. While trauma and
+abuse form the legacy of domestic evacuation, From Lion to Leaf shows that Canada
+attempted to provide the best care for its “War Guests” 
+choosing children in britain vs being assigned children in canada
+
+read george parr's case file <a href="https://www.nationalarchives.gov.uk/education/resources/evacuation-canada/source-3/">here</a>.
+
+</div>
+
+<div class="tabcontent" id="6">
+<h2>yes i am finch</h2>
+<img src="https://64.media.tumblr.com/c2d4d2dc606344639dbe47f0d2388893/e894b136094da61d-84/s400x600/0ba4bc9b086624a10f98e3fc0a7382dac42fc4c0.gifv" style="height: 200px; width: 200px; object-fit: cover; float: right; margin-left: 10px; border: 3px solid #fff">
+uhh something about me is that i constantly play video games, so there's that, i'm an epic gamer fucking hardcore scrub xd get shit on dude and uhhhh i code but i'm pretty sure you fucking know that if you don't i don't know how you got this far
+
+<p>Ea ferri justo libris usu. Appareat philosophia qui ex, id nibh eripuit scriptorem pro. Partem omittantur dissentiet ut vis, at facete ponderum his, an fugit ullum solet sea. Ex pro numquam intellegat, modo adipisci vulputate eum cu. Natum aliquip appetere usu at, in quo nobis numquam dissentiunt, duo zril commodo pertinax ad. Nec cu regione antiopam consetetur, congue corrumpit tincidunt ius et. Ne quod dissentias mei, in qui graeco graecis.
+
+</div>
+
+<div class="tabcontent" id="7">
+<h2>yes i am finch</h2>
+<a href="https://www.iwm.org.uk/history/the-story-of-child-evacuee-beryl-myatt-and-the-sinking-of-the-ss-city-of-benares"> the story of child evacuee beryl myatt and the sinking of the ss city of benares </a><p>
+<a href="https://www.nationalarchives.gov.uk/education/resources/evacuation-canada/source-2/">excerpt from a radio address given by dr r.c. wallace </a><p>
+
+<a href="https://www.readersdigest.ca/travel/canada/london-blitz-evacuation/">canada- a safe haven from the blitz</a><p>
+
+<a href="https://www.nationalarchives.gov.uk/education/resources/evacuation-canada/">evacuation to canada</a><p>
+
+<a href="https://wartimecanada.ca/document/world-war-ii/toys-and-games/carrying-tools-britain">carrying the tools to britain</a><p>
+
+<a href="https://core.ac.uk/download/pdf/61665135.pdf">from lion to leaf: the evacuation of british children to canada during the second world war </a>
+</div>
+</div>
+<div class="credits">avery burtenshaw | wwii culminating | may 2021 |<a href="https://finchscodes.tumblr.com" style="text-decoration: none;color: #fff;" target="_blank"> coded by finch</a>
+</div>
+</div>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+ 
+   window.onload = function(e){ 
+      document.getElementById("defaultOpen").click();
+   }    
+ 
+  $(document).ready(function() {  //If you are using jquery then use this other wise you can use normal window.onload
+     document.getElementById("defaultOpen").click();
+  });
+
+</script>
+</html>
